@@ -12,8 +12,7 @@ func randomized(_ array: [Int]) -> [Int]{
     var newArray = [Int]()
     for _ in array {
         let newNumbers = randomFromZero(5)
-        newArray.append(array[newNumbers])
-        
+        newArray.append(array[newNumbers])       
     }
     return newArray
 }
